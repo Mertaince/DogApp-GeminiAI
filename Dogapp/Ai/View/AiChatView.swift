@@ -59,7 +59,7 @@ struct AiChatView: View {
                 Button(action: {
                    
                 }) {
-                    Image(systemName: "arrow.left")
+                    Image(systemName: "trash.fill")
                 }
             }
         }

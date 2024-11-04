@@ -21,7 +21,7 @@ struct TabBarView: View{
                 .onAppear(){
                     selectionIndex = 1
                 }.tabItem {
-                    Image(systemName: "laurel.leading")
+                    Image(systemName: "magnifyingglass")
                 }
             AiChatView()
                 .onAppear(){
