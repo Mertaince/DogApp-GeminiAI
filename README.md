@@ -1,7 +1,7 @@
-Architecture: MVVM
-Frontend: Swift UI
-Backend: Firebase
-Ai: Gemini AI
+Architecture: MVVM < br >
+Frontend: Swift UI < br >
+Backend: Firebase < br >
+Ai: Gemini AI < br >
 
 # ScreenShot
 
