@@ -16,10 +16,10 @@ class LoginViewModel: ObservableObject {
     @Published var statusMessage = ""
     
     func login(){
-        Auth.auth().signIn(withEmail: email, link: password) { result, error in
+        Auth.auth().signIn(withEmail: email, password: password) { result, error in
             if error != nil {
                 print(error!.localizedDescription)
-//                self.statusMessage = "Eposta veya şifre hatalı tekrar deneyiniz."
+                self.statusMessage = "Eposta veya şifre hatalı tekrar deneyiniz."
             }
             else{
                 print("Giriş başarılı")
