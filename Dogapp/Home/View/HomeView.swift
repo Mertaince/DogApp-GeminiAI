@@ -46,7 +46,7 @@ struct HomeView: View {
                 .padding(.horizontal,22)
                 
                 HStack{
-                    Text("Uygulamayı ücretsiz kullanmak icin devam tuşuna basıp üyelik oluşturunuz.")
+                    Text("Uygulamayı ücretsiz kullanmak icin üye ol tuşuna basıp üyelik oluşturunuz.")
                         .padding(.horizontal,22)
                     
                         .foregroundColor(Color(.systemGray2))
